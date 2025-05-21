@@ -111,7 +111,7 @@ metadata_project/
 ##  作者建议
 
 - 将 `MAX_WORKERS` 设置为 CPU 核心数 × 2，可大幅提速
-- `SIMILARITY_THRESHOLD` 越高 → 越容易将相似文件分为不同组（建议 90~95）
+- `SIMILARITY_THRESHOLD` 越高 → 越容易将相似文件分为不同组（建议 85~95）
 - 分组依据中的“冲突关键词”与“年份/版本提取”可在 `grouping.py` 中扩展自定义
 
 ---
